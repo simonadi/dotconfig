@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =6
+let g:netrw_dirhist_6='/home/simonadi/.config/nvim'
+let g:netrw_dirhist_5='/home/simonadi/Documents/projects/AlgoTipBot'
+let g:netrw_dirhist_4='/home/simonadi/Documents/projects/AlgoTipBot/algotip_bot'
+let g:netrw_dirhist_3='/home/simonadi/Documents/projects/AlgoTipBot'
+let g:netrw_dirhist_2='/home/simonadi/Documents/projects/AlgoTipBot/algotip_bot'
+let g:netrw_dirhist_1='/home/simonadi/Documents/projects/AlgoTipBot'
