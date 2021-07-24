@@ -1,0 +1,18 @@
+game:
+  arch: win64
+  args: -opengl -SkipBuildPatchPrereq
+  exe: drive_c/Program Files (x86)/Epic Games/Launcher/Portal/Binaries/Win32/EpicGamesLauncher.exe
+  prefix: /home/simonadi/Games/epic-games-store
+system:
+  env:
+    __GL_SHADER_DISK_CACHE: '1'
+    __GL_SHADER_DISK_CACHE_PATH: /home/simonadi/Games/epic-games-store
+wine:
+  Desktop: true
+  WineDesktop: 2560x1440
+  custom_wine_path: /usr/bin/wine64
+  dumbxinputemu: false
+  dxvk: true
+  esync: true
+  system_winetricks: true
+  version: lutris-6.0-x86_64

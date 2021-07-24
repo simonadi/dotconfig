@@ -1,0 +1,22 @@
+game:
+  exe: drive_c/Program Files (x86)/Origin/Origin.exe
+  prefix: /home/simonadi/Games/origin
+system:
+  disable_compositor: true
+  env:
+    DXVK_CONFIG_FILE: /home/simonadi/Games/origin/dxvk.conf
+    STAGING_SHARED_MEMORY: '0'
+    __GL_SHADER_DISK_CACHE: '1'
+    __GL_SHADER_DISK_CACHE_PATH: /home/simonadi/Games/origin/nv-shaders
+  exclude_processes: QtWebEngineProcess.exe ActivationUI.exe OriginWebHelperService.exe
+  manual_command: /home/simonadi/Games/origin/drive_c/Program Files (x86)/Origin/updateorigin.sh
+wine:
+  Desktop: true
+  UseGLSL: disabled
+  WineDesktop: 2560x1440
+  dxvk: true
+  esync: true
+  overrides:
+    nvapi,nvapi64: disabled
+  system_winetricks: true
+  version: lutris-6.0-x86_64

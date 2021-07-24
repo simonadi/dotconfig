@@ -1,0 +1,12 @@
+game:
+  exe: drive_c/Program Files (x86)/Ubisoft/Ubisoft Game Launcher/UbisoftConnect.exe
+  prefix: /home/simonadi/Games/ubisoft-connect
+system: {}
+wine:
+  Desktop: true
+  WineDesktop: 2560x1440
+  dxvk: true
+  esync: true
+  overrides:
+    nvapi,nvapi64: disabled
+  version: lutris-6.0-x86_64

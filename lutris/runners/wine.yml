@@ -1,0 +1,4 @@
+system: {}
+wine:
+  custom_wine_path: /usr/bin/wine64
+  version: custom
